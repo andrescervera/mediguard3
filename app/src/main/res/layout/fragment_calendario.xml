@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:text="Encuadres 2023"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <CalendarView
+        android:id="@+id/calendario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:firstDayOfWeek="1"
+        android:maxDate="1672531200000"
+        android:minDate="1640995200000"
+        android:scrollbars="vertical"
+        android:showWeekNumber="false" />
+    <Button
+        android:id="@+id/cargarDatosButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="15dp"
+        android:background="#2196F3"
+        android:text="Cargar encuadre"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+
+
+</FrameLayout>
+
